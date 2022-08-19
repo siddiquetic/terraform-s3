@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state_s3" {
-  bucket = "terraform-siddiques3bucket-state" 
+  bucket = "bucket_name_to_replace" 
   force_destroy = true
 
   versioning {
